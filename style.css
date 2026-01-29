@@ -172,7 +172,11 @@ body{
     padding: 1rem 0 ;
     font-size: 0.8rem;
 }
-
+@media (max-width: 1400px) {
+    .image{
+        display: none;
+    }
+}
 
 @media (max-width: 800px) {
     body{
