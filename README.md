@@ -16,10 +16,13 @@
                 document.getElementById(sectionId).style.transition = 'all 0.2s';
             }, 1000);
         }
+        function scrolltoTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
     </script>
 </head>
 <body>
-    <div class="nav">
+    <div class="nav" onclick="scrolltoTop()">
         <div class="nav-btn">
             <div class="btn" onclick="scrollToSection('about')">O NAS</div>
             <div class="btn" onclick="scrollToSection('skills')">UMIEJĘTNOŚCI</div>
